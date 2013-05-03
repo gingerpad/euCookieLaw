@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>EU Cookie Law</title>
+		<meta name="author" content="Paddy Ward : North 51 Digital" />
+		<link rel="stylesheet" type="text/css" href="/css/base.css" />
+		<link rel="stylesheet" href="/css/smoothness/jquery-ui-1.9.2.custom.css">
+		<link rel="stylesheet" href="/css/jqModal.css">
+		<link rel="stylesheet" type="text/css" href="/css/dialog-overrides.css" />
+		<link rel="stylesheet" type="text/css" href="/css/euCookieLaw.css" />
+		<script type="text/javascript" src="/js/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.min.js"></script>
+		<!--<script type="text/javascript" src="/js/jqModal.js"></script>-->
+		<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="/js/jquery.euCookieLaw.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(window).euCookieLaw({
+					euCookieActive: true
+					, autoOptIn: false
+					, messagePrepend: true
+					, offsetOverlay: false
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<p><a href="" class="eu-cookie-action">Open dialog sample link</a></p>
+		</div>
+	</body>
+</html>

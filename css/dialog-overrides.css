@@ -1,0 +1,308 @@
+/* start jQuery UI dialog css overrides */
+
+div.ui-widget-overlay
+{
+	background-color:#000;
+	background-image: none;
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	-webkit-opacity: 0.7;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	-ms-filter:~"progid:DXImageTransform.Microsoft.Alpha(opacity=70)";
+}
+
+div.eu-cookie-modal
+{
+	padding:10px;
+	position:fixed;
+	border:none;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	font-family: Arial, Sans-serif;
+}
+
+div.eu-cookie-modal div.ui-dialog-titlebar
+{
+	display:none;
+}
+
+div.eu-cookie-modal div#dialog
+{
+	*width:655px !important;
+	padding:10px;
+	background: #fff url(/images/eu-cookie-dialog-footer-shadow.jpg) bottom center no-repeat;
+	_background-attachment: fixed;  /* IE 6 */
+}
+
+div.eu-cookie-modal div#dialog div.dialog-container
+{
+	display:block;
+	width:100%;
+	*width:635px !important;
+	height:auto;
+	overflow:auto;
+}
+
+
+div.eu-cookie-modal div#dialog h1
+,div.eu-cookie-modal div#dialog h2
+,div.eu-cookie-modal div#dialog h3
+,div.eu-cookie-modal div#dialog h4
+,div.eu-cookie-modal div#dialog h5
+,div.eu-cookie-modal div#dialog h6
+{
+	padding:0 0 20px;
+	margin:0;
+	color:#0c7ab7;
+	font-family: Arial, Sans-serif !important;
+}
+
+div.eu-cookie-modal div#dialog h1
+{
+	font-size:19px;
+}
+
+div.eu-cookie-modal div#dialog h2
+{
+	font-size:17px;
+}
+
+div.eu-cookie-modal div#dialog h3
+{
+	padding:0 0 12px;
+	font-size:15px;
+}
+
+div.eu-cookie-modal div#dialog h4
+{
+	font-size:14px;
+}
+
+div.eu-cookie-modal div#dialog h5
+{
+	font-size:13px;
+}
+
+div.eu-cookie-modal div#dialog h6
+{
+	font-size:12px;
+}
+
+div.eu-cookie-modal div#dialog p
+{
+	padding:0 0 15px;
+	margin:0;
+	font-size:12px;
+	color:#636363;
+	line-height:140%;
+}
+
+div.eu-cookie-modal div#dialog p a
+{
+	color:#0c7ab7;
+}
+
+div.eu-cookie-modal div#dialog div.frm
+{
+	padding:0 0 12px;
+	margin:0;
+	font-size:12px;
+	color:#636363;
+	line-height:140%;
+}
+
+div.eu-cookie-modal div#dialog div.frm input
+{
+	margin:3px 3px 0 5px;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane
+{
+	border:none;
+	margin-top:0;
+	padding:20px 20px 10px;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset
+{
+	float:left;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset .ui-corner-all
+{
+	border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-khtml-border-radius: 13px;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset  button
+{
+	margin:0 15px 0 0;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset  button.ui-state-default
+{
+	background:#074a6f url(/images/eu-cookie-dialog-button-bg.png) top left repeat-x;
+	color:#fff;
+	font-size:12px;
+	border:none;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset  button.ui-state-hover
+{
+	background:#053753 url(/images/eu-cookie-dialog-button-hover-bg.png) top left repeat-x;
+	color:#fff;
+	font-size:12px;
+	border:none;
+}
+
+div.eu-cookie-modal div.ui-dialog-buttonpane div.ui-dialog-buttonset button.ui-button span
+{
+	padding:7px 25px;
+}
+
+/* end jQuery UI dialog css overrides */
+
+/* start jqModal UI dialog css overrides */
+
+div.jqmWindow
+{
+	width:675px;
+	height:650px;
+	background-color:#fff;
+}
+
+div.jqmWindow div.dialog-inner
+{
+	display:block;
+	width:655px;
+	height:549px;
+	overflow:auto;
+	padding:10px;
+	background: #fff url(/images/eu-cookie-dialog-footer-shadow.jpg) bottom center no-repeat;
+	_background-attachment:fixed; /* IE 6 */
+}
+
+div.jqmWindow div.dialog-inner div.dialog-container
+{
+	display:block;
+	width:100%;
+	*width:635px;
+	height:auto;
+	overflow:auto;
+}
+
+div.eu-cookie-modal div.dialog-container h1
+,div.eu-cookie-modal div.dialog-container h2
+,div.eu-cookie-modal div.dialog-container h3
+,div.eu-cookie-modal div.dialog-container h4
+,div.eu-cookie-modal div.dialog-container h5
+,div.eu-cookie-modal div.dialog-container h6
+{
+	padding:0 0 20px;
+	margin:0;
+	color:#0c7ab7;
+	font-family: Arial, Sans-serif !important;
+}
+
+div.eu-cookie-modal div.dialog-container h1
+{
+	font-size:19px;
+}
+
+div.eu-cookie-modal div.dialog-container h2
+{
+	font-size:17px;
+}
+
+div.eu-cookie-modal div.dialog-container h3
+{
+	padding:0 0 12px;
+	font-size:15px;
+}
+
+div.eu-cookie-modal div.dialog-container h4
+{
+	font-size:14px;
+}
+
+div.eu-cookie-modal div.dialog-container h5
+{
+	font-size:13px;
+}
+
+div.eu-cookie-modal div.dialog-container h6
+{
+	font-size:12px;
+}
+
+div.eu-cookie-modal div.dialog-container p
+{
+	padding:0 0 15px;
+	margin:0;
+	font-size:12px;
+	color:#636363;
+	line-height:140%;
+}
+
+div.eu-cookie-modal div.dialog-container p a
+{
+	color:#0c7ab7;
+}
+
+div.eu-cookie-modal div.dialog-container div.frm
+{
+	padding:0 0 12px;
+	margin:0;
+	font-size:12px;
+	color:#636363;
+	line-height:140%;
+}
+
+div.eu-cookie-modal div.dialog-container div.frm input
+{
+	margin:3px 3px 0 5px;
+}
+
+div.eu-cookie-modal div.dialog-button-pane
+{
+	border:none;
+	margin-top:0;
+	padding:20px 20px 10px;
+}
+
+div.eu-cookie-modal div.dialog-button-pane button
+{
+	border-radius: 13px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-khtml-border-radius: 13px;
+	margin:0 15px 0 0;
+	
+	background:#074a6f url(/images/eu-cookie-dialog-button-bg.png) top left repeat-x;
+	color:#fff;
+	font-size:12px;
+	border:none;
+	
+	cursor:pointer;
+}
+
+div.eu-cookie-modal div.dialog-button-pane button:hover
+{
+	background:#053753 url(/images/eu-cookie-dialog-button-hover-bg.png) top left repeat-x;
+	color:#fff;
+	font-size:12px;
+	border:none;
+}
+
+div.eu-cookie-modal div.dialog-button-pane button span
+{
+	display:block;
+	padding:7px 25px;
+}
+
+/* end jqModal UI dialog css overrides */

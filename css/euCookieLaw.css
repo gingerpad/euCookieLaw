@@ -1,0 +1,115 @@
+div.euCookie-outer
+{
+	display:block;
+	width:100%;
+	position:fixed;
+	left:0px;
+	z-index:900;
+	
+	background-color:#fff;
+	font-family: Arial, Sans-serif;
+}
+
+div.euCookie-outer div.euCookie-inner
+{
+	margin:0 auto;
+	padding:10px 0;
+	overflow:auto;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-left
+{
+	float:left;
+	width:80%;
+	border-right:1px solid #0c7ab7;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-left div.euCookie-left-inner
+{
+	padding-right:20px;
+}
+
+div.euCookie-left div.euCookie-left-inner h1
+,div.euCookie-left div.euCookie-left-inner h2
+,div.euCookie-left div.euCookie-left-inner h3
+,div.euCookie-left div.euCookie-left-inner h4
+,div.euCookie-left div.euCookie-left-inner h5
+,div.euCookie-left div.euCookie-left-inner h6
+{
+	padding:0;
+	margin:0;
+	color:#0c7ab7;
+	font-family: Arial, Sans-serif !important;
+}
+
+div.euCookie-left div.euCookie-left-inner h1
+{
+	font-size:19px;
+}
+
+div.euCookie-left div.euCookie-left-inner h2
+{
+	font-size:17px;
+}
+
+div.euCookie-left div.euCookie-left-inner h3
+{
+	font-size:15px;
+}
+
+div.euCookie-left div.euCookie-left-inner h4
+{
+	font-size:14px;
+}
+
+div.euCookie-left div.euCookie-left-inner h5
+{
+	font-size:13px;
+}
+
+div.euCookie-left div.euCookie-left-inner h6
+{
+	font-size:12px;
+}
+
+div.euCookie-left div.euCookie-left-inner span.euCookie-message
+{
+	display:block;
+	font-size:12px;
+	color:#636363;
+	line-height:140%;
+}
+
+div.euCookie-left div.euCookie-left-inner span.euCookie-message a
+{
+	color:#0c7ab7;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-right
+{
+	float:right;
+	width:18%;
+	padding-top:10px;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-right a
+{
+	display:block;
+	color:#0c7ab7;
+	font-weight:bold;
+	font-size:13px;
+	margin-bottom:8px;
+	line-height:18px;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-right a.eu-cookie-continue-btn
+{
+	background: transparent url(/images/eu-cookie-icon-continue.gif) left center no-repeat;
+	padding-left:24px;
+}
+
+div.euCookie-outer div.euCookie-inner div.euCookie-right a.eu-cookie-learn-btn
+{
+	background: transparent url(/images/eu-cookie-icon-learn.gif) left center no-repeat;
+	padding-left:24px;
+}
